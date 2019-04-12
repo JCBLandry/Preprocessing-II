@@ -1,3 +1,4 @@
+@mobile (max-width: 500px);
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,6 +169,19 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navbtn {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+}
+.funbuslogo {
+  margin-bottom: 20px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +238,26 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.header {
+  border-bottom: 2px dashed silver;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.btn {
+  background-color: #17A2B8;
+  color: white;
+  border: 1px solid #17A2B8;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 20px;
+  width: 80%;
+}
+.header-content {
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+  margin: 0 0 0 10px;
 }
