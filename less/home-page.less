@@ -65,25 +65,32 @@
   display: flex;
   Margin: 0 auto;
   width: 800px;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .btn{ .botbtn (@button-bg, white);
+  
 }
 .header-content{
   display: flex;
-  justify-content: space-evenly;
-  width: 600px;
+  justify-content: space-between;
+  width: 800px;
   margin: 0 0 0 10px;
 }
 
 @media @mobile {
+  h1{
+    width: 500px;
+    margin: 0 auto;
+  }
   .header{
   background:white;
   padding: 20px 20px 5px 20px;
+
   .header-content{
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   }
   .content-section {
@@ -128,6 +135,7 @@ img{
   img{
     margin-bottom: 20px;
   }
+  
 }
 .home .content-pick{
   display: flex;
@@ -138,6 +146,7 @@ img{
     margin: 0 auto;
 
   }
+  
 }
 
 .btn{
