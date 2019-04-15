@@ -59,3 +59,103 @@
     }
   }
 }// home
+.header{
+  border-bottom: 2px dashed silver;
+  background: white;
+  display: flex;
+  Margin: 0 auto;
+  width: 800px;
+  padding: 20px 0;
+}
+
+.btn{ .botbtn (@button-bg, white);
+  
+}
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 0 0 0 10px;
+}
+
+@media @mobile {
+  h1{
+    width: 500px;
+    margin: 0 auto;
+  }
+  .header{
+  background:white;
+  padding: 20px 20px 5px 20px;
+
+  .header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  }
+  .content-section {
+    flex-direction: column;
+    align-content: center;
+    border-top: 2px dashed @navigation-border;
+    padding-top: 20px;
+}
+.home .content-section .text-content {
+  width: 100%;
+  padding-right: 1%;
+}
+
+img{
+  max-width: 500px;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+}
+.funbuslogo {
+  max-width: 100%;
+}
+
+.secret1{
+  border-radius: 10px;
+}
+
+.secret2{
+  display: none;
+}
+.home .content-destination{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0;
+  width: 100%;
+
+  img{
+    margin-bottom: 20px;
+  }
+  
+}
+.home .content-pick{
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;;
+  .destination{
+    width: 100%;
+    margin: 0 auto;
+
+  }
+  
+}
+
+.btn{
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+}
+.secret1{
+  display: none;
+}
